@@ -1,0 +1,23 @@
+/* Create two equal columns that floats next to each other */
+
+.container {
+    height: 100vh;
+    width: 100%;
+}
+
+.column_img {
+    float: left;
+    display: flex;
+    width: 65%;
+    height: 100%;
+}
+
+.column_text {
+    justify-content: column
+}
+
+.img_size {
+    object-fit: fill;
+    height: 100vh;
+    width: 100%;
+}
