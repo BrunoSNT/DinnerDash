@@ -15,7 +15,8 @@
 }
 
 .column_text {
-    float: right;
+    margin-left: 3%;
+    margin-right: 3%;
     width: 30%;
     height: 100vh;
 }
@@ -27,23 +28,40 @@
 }
 
 .separacao {
-    width: 70%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
     border-bottom: 1px solid #EAEAEA;
 }
 
 .button {
-    margin: 10%;
-    border: none;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     background-color: #52eb86;
     border-radius: 4px;
     color: white;
 }
 
+.buttonInverse {
+    width: 100%;
+    background-color: white;
+    border-color: #52eb86;
+    border-radius: 4px;
+    color: #52eb86;
+}
+
 .justify {
+    margin: 0;
+    padding: 5px;
     text-align: justify;
 }
 
 .Input {
-    width: 80%;
-    align-self: center;
+    width: 100%;
+}
+
+.title {
+    margin-top: 30%;
+    margin-bottom: 15%;
 }
