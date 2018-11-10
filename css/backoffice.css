@@ -7,21 +7,22 @@
 }
 
 .row_img {
+    margin: 0;
     flex-direction: column;
     display: flex;
-    float: bottom;
     width: 100%;
     height: 80vh;
     background-image: url("../imgs/helloquence-61189.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center; 
 }
 
 .row_table {
     display: flex;
-    float: bottom;
     width: 100%;
-    height: 20vh;
+    height: 35vh;
+    justify-content: space-evenly;
 }
 
 .img_sizeHor {
@@ -35,12 +36,21 @@
     height: 100vh;
 }
 
+.navbartext{
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+}
+
+
 table {
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     border-collapse: collapse;
     background-color: #FFFFFF;
     margin-top: 2%;
-    margin-bottom: 5%;
+    margin-bottom: 15%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 th,
@@ -51,6 +61,13 @@ td {
     padding-right: 50px;
     text-align: left;
     border-bottom: 1px solid #ddd;
+}
+.margin{
+    margin-left: 5%;
+}
+
+.marginHeader{
+    margin-left: 5%;
 }
 
 tr.header {
